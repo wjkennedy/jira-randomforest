@@ -36,3 +36,33 @@ Use the requirements.txt file that includes all the modules needed
 Use the Dockerfile to run the Jupyter notebook and the flask app with gunicorn
 
 Please note that this is an example and you may need to adjust it to fit your specific needs and directory structure.
+
+----
+## Jupyter Notebook
+Connect to Jira using the Jira Python module and OAuth
+
+Present a text widget and submit button for a user to provide a JQL query
+
+Display the results of the query as a Pandas dataframe
+
+Use the Project Key, Summary, Description, and Comments to train a random forest classifier
+
+
+## Flask App
+Use the output from the training to recommend the appropriate project for a given issue
+
+Create the issue in the recommended project using the same OAuth credentials and reading from a config.properties file
+
+Present the user input UI in the eBay application style and font
+
+Add a comment with the metadata about the prediction and a label "a9ai"
+
+Run with Gunicorn instead of the built-in Flask development server
+
+## Docker
+
+Create a Dockerfile for the Flask app, including the pickle file
+
+Create a similar Dockerfile to run the Jupyter notebook
+
+Includes a requirements.txt file that includes all the modules needed

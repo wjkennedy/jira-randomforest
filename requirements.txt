@@ -1,0 +1,6 @@
+pandas
+numpy
+jira
+scikit-learn
+configparser
+pyjwt
